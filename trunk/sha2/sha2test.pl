@@ -79,10 +79,6 @@ $c256 = $c384 = $c512 = $cALL = "";
 $hashes = 0;
 @FILES = ();
 
-=pod
-Test password: PxOJy0UBhsnfZDFICGg8ISa
-=cut
-
 # Read all command-line options and files:
 while ($opt = shift(@ARGV)) {
 	if ($opt =~ s/^\-//) {
