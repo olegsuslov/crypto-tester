@@ -1,0 +1,30 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography\Defaults\Provider\XYZ Provider]
+"Image Path"="xyzcsp.dll"
+"Type"=dword:0000007B
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography\Defaults\Provider Types\Type 123]
+"Name"="XYZ Provider"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography\OID\EncodingType 0\CryptDllFindOIDInfo]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography\OID\EncodingType 0\CryptDllFindOIDInfo\1.2.643.2.2.19!1]
+"Name"="GOST R 34.10-2001"
+"Algid"=dword:00002036
+"ExtraInfo"=hex:00,00,00,00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography\OID\EncodingType 0\CryptDllFindOIDInfo\1.2.643.2.2.3!2]
+"Name"="GOST R 34.11/34.10-2001"
+"Algid"=dword:00008037
+"ExtraInfo"=hex:36,20,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography\OID\EncodingType 1\CryptDllConvertPublicKeyInfo]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography\OID\EncodingType 1\CryptDllConvertPublicKeyInfo\1.2.643.2.2.19]
+"Dll"="xyzcsp.dll"
+"FuncName"="xyz_ConvertPublicKeyInfo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography\OID\EncodingType 1\CryptDllConvertPublicKeyInfo\1.2.643.2.2.98]
+"Dll"="xyzcsp.dll"
+"FuncName"="xyz_ConvertPublicKeyInfo"
